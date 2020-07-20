@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Weather Journal</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="autos">
+    <p>Your Country: <span id="auto_country"></span></p>
+    <p>Your City: <span id="auto_city"></span></p>
+    <p>Your Temp: <span id="auto_temp"></span></p>
+    </div>
+<div id="app">
+  <div class ="holder headline">
+    <h2 id="titl">Weather Journal App</h2>
+  </div>
+  <div class ="holder zip">
+    <label for="zip">Enter Zipcode here</label>
+    <input type="text" id="zip" placeholder="enter zip code here">
+  </div>
+  <div class ="holder feel">
+    <label for="feelings">How are you feeling today?</label>
+    <textarea class= "myInput" id="feelings" placeholder="Enter your feelings here" rows="4" cols="35"></textarea>
+    <button id="generate" type = "submit"> Generate </button>
+  </div>
+  <div class ="holder entry">
+    <div class = "title">Most Recent Entry</div>
+   <div id = "entryHolder">
+   <div>Date: <span  id = "date"></span></div>
+   <div>Country: <span  id = "recent_country"></span></div>   
+   <div>Temp: <span id = "temp"></span></div>
+   <div><h4>Content</h4><p id = "content"></p></div>
+   
+   <div class="container1">
+   <img id="mimage" src="" alt="gif image according to weather" style="width:90%">
+   <div id="image_country" class="centered">City</div>
+   </div>
+   <div id="img_container"><img id="mimage" src=""></div>
+  </div>
+  </div>
+  </div>
+
+
+<div class="mycomments">
+<h4>All Comments</h4>
+<div id="comments"></div>
+</div>
+<div class="footer">
+Developed By Mahmoud Hegazi
+</div>
+<script src="app.js" type="text/javascript"></script>
+</body>
+</html>
