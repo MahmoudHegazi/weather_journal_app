@@ -1,5 +1,7 @@
 # weather_journal_app
 
+<img src="n1.PNG">
+
 ## API's:
 * https://geolocation-db.com/
 * https://home.openweathermap.org/api_keys
