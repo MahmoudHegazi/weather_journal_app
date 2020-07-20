@@ -29,4 +29,4 @@
 
 
 ## note
-for some reason the temp not apear good, even in one call API 
+for some reason the temp 3 numbers (API return that not me), even in one call API 
