@@ -1,5 +1,5 @@
 # weather_journal_app
-
+<img src="auto1.PNG">
 <img src="n1.PNG">
 
 ## API's:
