@@ -26,3 +26,7 @@
 
 
 * it will show all comments during the session i was working on return from database but some duplicate due to foreach need jinja2 or something
+
+
+## note
+for some reason the temp not apear good, even in one call API 
