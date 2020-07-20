@@ -13,6 +13,7 @@
 * body-parser
 
 ## how to use:
+* port: 8000
 * download the project
 * add folder into usesrs > youruser
 * open command line
